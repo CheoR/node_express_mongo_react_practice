@@ -1,0 +1,35 @@
+{
+  "name": "node_express_mongo_react_practice",
+  "version": "1.0.0",
+  "description": "express-node-mongo-react-practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.jsx --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "author": "CheoR",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^4.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/eslint-parser": "^7.14.9",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.14.9",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "babel-node": "^0.0.1-security",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.24.0",
+    "nodemon": "^2.0.12",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
